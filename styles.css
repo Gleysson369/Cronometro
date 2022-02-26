@@ -1,0 +1,119 @@
+/* Variabes */
+
+:root {
+
+  --primary-color: #0b2c33;
+  --secundary-color: #61a0dbbd;
+  --text-color: #39b4ece5;
+  --button-color: #0c5396d5;
+  --sombra-color: #47c2e7be;
+  
+}
+/*Zerar estilos*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+  background-color: var(--primary-color);
+  border: 150px;
+  height: 100%;
+  font-family: cursive Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; 
+}
+
+
+ul,li {
+  margin: 0;
+  list-style-type: none;
+}
+
+button1:hover {
+  cursor: pointer;
+  text-align: center;
+}
+
+button2:hover {
+  cursor: pointer;
+}
+
+button3:hover {
+  cursor: pointer;
+}
+
+/*Texto*/
+
+h1 {
+  color: var(--text-color);
+  text-shadow: 0px 4px 10px var(--secundary-color);
+  font-size: 100px;
+  line-height: 3;
+}
+
+h2 {
+  color: var(--text-color);
+  text-shadow: 0px 4px 10px var(--secundary-color);
+  font-size: 150%;
+  line-height: 3;
+}
+
+span{
+
+  color: var(--text-color);
+  font-size: 300%;
+  line-height: 10;
+  padding: 0px 0px;
+  text-transform: uppercase;
+  line-height: 5;
+  box-sizing: border-box;
+}
+
+button1 {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--text-color);
+  background: var(--button-color);
+  cursor: pointer;
+  box-shadow: 5px 10px 10px -2px var(--sombra-color);
+}
+
+button2 {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--text-color);
+  background: var(--button-color);
+  cursor: pointer;
+  box-shadow: 5px 10px 10px -2px var(--sombra-color);
+}
+
+button3 {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--text-color);
+  background: var(--button-color);
+  cursor: pointer;
+  box-shadow: 5px 10px 10px -2px var(--sombra-color);
+}
